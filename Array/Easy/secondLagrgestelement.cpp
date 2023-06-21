@@ -23,7 +23,7 @@ void secondLargest(int arr[], int size)
     }
    
   }
-  cout << second <<endl;
+  cout << second << endl;
 }
 
 

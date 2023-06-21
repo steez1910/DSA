@@ -6,28 +6,28 @@ using namespace std;
 
 void threeLargest(int arr[], int size)
 {
-  int first_Max,second_Max,third_Max = INT_MIN;
+  int first,second,third = INT_MIN;
 
   
   for (int i = 0; i < size; i++)
   {
-    if (arr[i] > first_Max)
+    if (arr[i] > first)
     {
-      third_Max = second_Max;
-      second_Max = first_Max;
-      first_Max = arr[i];
+      third = second;
+      second = first;
+      first = arr[i];
     }
-    else if (arr[i] > second_Max && arr[i] != first_Max)
+    else if (arr[i] > second && arr[i] != first)
     {
-      third_Max = second_Max;
-      second_Max = arr[i];
+      third = second;
+      second = arr[i];
     }
-    else if (arr[i] > third_Max && arr[i] != second_Max)
+    else if (arr[i] > third && arr[i] != second)
     {
-      third_Max = arr[i];
+      third = arr[i];
     } 
   }
-  cout << first_Max << second_Max << third_Max << " ";
+  cout << first << second << third << " ";
 }
 
 int main()

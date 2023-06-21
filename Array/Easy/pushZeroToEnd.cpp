@@ -12,10 +12,7 @@ void pushZerosToEnd(int arr[], int n)
         j++;
       }
   }
- for (int i = 0; i < n; i++) 
-  {
-      cout << arr[i] << " ";
-  }
+ 
   
 
 }
@@ -27,6 +24,9 @@ int main()
   int n = sizeof(arr)/sizeof(arr[0]); 
 
 pushZerosToEnd(arr,n);
-
+for (int i = 0; i < n; i++) 
+  {
+      cout << arr[i] << "  ";
+  }
 return 0;
 }
