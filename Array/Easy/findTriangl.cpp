@@ -1,3 +1,7 @@
+// https://www.geeksforgeeks.org/find-number-of-triangles-possible/
+// Given an unsorted array of positive integers, find the number of triangles that can be formed with three different array elements as three sides of triangles. 
+// For a triangle to be possible from 3 values, the sum of any of the two values (or sides) must be greater than the third value (or third side). 
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -18,7 +22,7 @@ int findTriangl(int arr[], int n)
 
 int main()
 {
-  int arr[] = {10, 21, 22, 100, 101, 200, 300};
+  int arr[] = {4, 6, 3, 7};
   int n = sizeof(arr)/ sizeof(arr[0]);
   cout << findTriangl(arr, n);
   return 0;

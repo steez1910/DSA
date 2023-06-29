@@ -1,3 +1,7 @@
+// https://www.geeksforgeeks.org/find-second-largest-element-array/
+// Given an array of integers, our task is to write a program that efficiently finds the second-largest element present in the array. 
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

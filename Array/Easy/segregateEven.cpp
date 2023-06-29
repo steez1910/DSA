@@ -1,3 +1,8 @@
+// https://www.geeksforgeeks.org/segregate-even-odd-numbers-set-3/
+// Given an array arr[] of integers, segregate even and odd numbers in the array. Such that all the even numbers should be present first, and then the odd numbers.
+
+
+
 #include <bits/stdc++.h>
 using namespace std;
 

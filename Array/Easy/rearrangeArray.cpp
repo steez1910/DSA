@@ -1,3 +1,9 @@
+// https://www.geeksforgeeks.org/rearrange-array-such-that-even-positioned-are-greater-than-odd/
+// Given an array A of n elements, sort the array according to the following relations :  
+// A[i] >= A[i-1] , if i is even,  ∀ 1 <= i < n
+// A[i] <= A[i-1] , if i is odd ,  ∀ 1 <= i < n
+
+
 #include <bits/stdc++.h>
 using namespace std;
 
