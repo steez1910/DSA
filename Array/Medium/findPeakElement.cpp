@@ -8,7 +8,7 @@ using namespace std;
 
 int findPeak(int arr[], int size)
 {
-	if (size == 1)
+	if (size == 1) 
 		return arr[0];
 	if (arr[0] >= arr[1])
 		return arr[0];
