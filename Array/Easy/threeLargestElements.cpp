@@ -7,6 +7,8 @@ using namespace std;
 void threeLargest(int arr[], int size)
 {
   int first,second,third = INT_MIN;
+
+  
   for (int i = 0; i < size; i++)
   {
     if (arr[i] > first)
@@ -25,14 +27,14 @@ void threeLargest(int arr[], int size)
       third = arr[i];
     } 
   }
-  cout <<"   " << first <<"   " << second <<"   " << third <<endl;
+  cout << first << second << third << " ";
 }
 
 int main()
 {
   int arr[] = {32, 21, 12, 43, 9, 5, 3};
   int n = sizeof(arr)/sizeof(arr[0]);
-  threeLargest(arr, n);
   return 0;
+  threeLargest(arr, n);
 
 }
